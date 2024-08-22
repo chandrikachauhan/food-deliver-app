@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .header{
+    min-height: 30px;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+  }
+  .menu ul{
+    min-height:40px;
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 50px;
+    
+  }
+  .menu ul li{
+    list-style-type: none;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: black;
+    /* font-weight: 500px; */
+    font-family: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .menu ul li a:hover{
+    text-underline-offset: 6px;
+    text-decoration-color:brown;
+    text-decoration-line:underline;
+  }
+  .logo img{
+    height: 40px;
+    cursor: pointer;
+  }
+  .search input{
+    height: 35px;
+    border-radius:5px;
+    border:none;
+  }
