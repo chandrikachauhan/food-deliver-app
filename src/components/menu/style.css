@@ -4,14 +4,18 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
   }
-  .header{
+  section{
     min-height: 30px;
     width: 100%;
-    background-color: orange;
+    background-color:#fbd35b;
+  }
+  .header{
+    min-height: 30px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px;
+    margin:auto;
   }
   .menu ul{
     min-height:40px;
@@ -25,15 +29,15 @@
   .menu ul li{
     list-style-type: none;
   }
-  .menu ul li a{
+  .menu ul li{
     text-decoration: none;
     color: black;
-    /* font-weight: 500px; */
+    cursor: pointer;
     font-family: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-  .menu ul li a:hover{
+  .menu .active{
     text-underline-offset: 6px;
     text-decoration-color:brown;
     text-decoration-line:underline;
@@ -42,8 +46,36 @@
     height: 40px;
     cursor: pointer;
   }
+  .search{
+    display: flex;
+    align-items: center;
+  }
   .search input{
     height: 35px;
     border-radius:5px;
     border:none;
+  }
+  .search button{
+    height: 35px;
+    width:100px;
+    cursor: pointer;
+    border-radius:5px;
+    background-color: transparent;
+  }
+  .search img{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    border-radius:2px;
+  }
+  .circle{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    color:white;
+    top:-10px;
+    left:-5px;
   }

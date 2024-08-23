@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .slider{
+    background-image: url('./image/background.jpg');
+    width: 100%;
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .sliderfour{
+    /* background-color:rgba(0,0,0, 0.4); */
+    color:white;
+    /* color:black; */
+    min-height: 200px;
+    position:relative;
+    top: 120px;
+    width: 80%;
+    line-height:30px;
+    margin:0 auto;
+    text-align: center;
+  }
+  .sliderfour button{
+    height: 40px;
+    width: 140px;
+    border:2px solid orange;
+    font-size: 22px;
+    font-weight: 500px;
+    font-family: bold;
+    color:hwb(60 99% 1%);
+    border-radius:10px;
+    background-color:rgba(0, 343, 322, .2);
+  }
+  .sliderfour button:hover{
+    background-color: #fbd35b;
+    border:none;
+    color:black;
+    transition: 0.5s;
+    font-family: monotype corsiva;
+    letter-spacing: 1px;
+  }
