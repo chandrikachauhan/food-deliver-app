@@ -1,12 +1,14 @@
 import "./App.css";
-import Menu from "./components/menu/menu";
-import Slider from "./components/menu/slider";
+import Home from "./components/home/home";
+import { Route, Routes } from "react-router-dom";
+import PlaceOrder from "./components/Placeorder/PlaceOrder";
+
 function App() {
   return (
-    <>
-       <Menu/>
-        <Slider/>
-    </>
+      <Routes>
+        <Route path="/" Component={Home}/>
+        <Route path="/placeorder" Component={PlaceOrder}/>
+      </Routes>
   );
 }
 

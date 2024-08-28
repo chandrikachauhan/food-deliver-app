@@ -1,0 +1,26 @@
+.explore_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.explore_menu h2{
+    text-align: center;
+    line-height: 40px;
+}
+.explore_menu_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 10px;
+    text-align: center;
+}
+.explore_menu_list img{
+    min-height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px black;
+   
+}
+.explore_menu_list .active{
+    border:5px solid #fbd35b;
+}

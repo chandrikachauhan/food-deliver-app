@@ -22,6 +22,15 @@
     line-height:30px;
     margin:0 auto;
     text-align: center;
+    animation: fadeout 3s;
+  }
+  @keyframes fadeout{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
   }
   .sliderfour button{
     height: 40px;
