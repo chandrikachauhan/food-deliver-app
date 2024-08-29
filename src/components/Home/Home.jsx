@@ -3,6 +3,7 @@ import Menu from '../menu/menu'
 import Slider from '../menu/slider'
 import './Home.css'
 import ExploreMenu from '../menu/ExploreMenu'
+import FoodDisplay from '../fooddisplay/foodDisplay'
 function Home() {
   const [category , setCategory] = useState('All');
   return (
@@ -10,6 +11,7 @@ function Home() {
         <Menu/>
         <Slider/>
         <ExploreMenu category={category} setCategory={setCategory}/> 
+        <FoodDisplay category={category}/>
     </div>
   )
 }

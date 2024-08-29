@@ -10,8 +10,8 @@ function ExploreMenu({category , setCategory}) {
             {
                 return(
                     <div 
-                    onClick={()=>setCategory(prev=>prev===items.menu_image?"All":items.menu_image)}>
-                        <img src={items.menu_image} alt={items.menu_image} className={category===items.menu_image?"active":""} />
+                    onClick={()=>setCategory(prev=>prev===items.menu_name?"All":items.menu_name)}>
+                        <img src={items.menu_image} alt={items.menu_name} className={category===items.menu_name?"active":""} />
                         <h4>{items.menu_name}</h4>
                     </div>
                 )

@@ -56,4 +56,79 @@ export const menu_list = [
     }
 
 ]
+export const food_list =[
+    {
+        id : 1,
+        name:'itelly',
+        image:menu_1,
+        description:"This is south asia food",
+        price:12,
+        category:"Itali"
+    },
+    {
+        id : 2,
+        name:'itelly',
+        image:menu_2,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 3,
+        name:'itelly',
+        image:menu_3,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 4,
+        name:'itelly',
+        image:menu_4,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 5,
+        name:'itelly',
+        image:menu_5,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 6,
+        name:'itelly',
+        image:menu_6,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 7,
+        name:'itelly',
+        image:menu_7,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 8,
+        name:'itelly',
+        image:menu_8,
+        description:"This is south asia food",
+        price:12,
+        category:"itali"
+    },
+    {
+        id : 9,
+        name:'itelly',
+        image:menu_9,
+        description:"This is south asia food",
+        price:12,
+        category:"Burgur"
+    }
+
+]
 
